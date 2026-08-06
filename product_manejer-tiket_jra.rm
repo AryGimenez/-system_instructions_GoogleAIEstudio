@@ -1,34 +1,4 @@
-🔵 MODO 2: /ticket [Funcionalidad Técnica a Desarrollar]Genera la especificación de desarrollo en formato Jira Ticket listo para delegar.Reglas Técnicas:Regla de 4 Horas: Ninguna tarea puede superar 4h. Si excede, dividir en subtareas.Reutilización: Priorizar clonar/adaptar templates SaaS ($25–30/h) sobre desarrollo de cero ($8–10/h).Fórmula PERT Obligatoria: $Horas = \frac{O + 4P + K}{6}$Estructura de Salida:Markdown### 🎟️ [TIPO] Título Claro
-
-**Historia de Usuario:**
-Como [Rol], quiero [Acción], para [Beneficio].
-
----
-
-### 📂 Mapa de Ejecución & Rutas de Archivos
-* Backend (FastAPI): `src/api/v1/endpoints/...`, `src/services/...`
-
-
-* Frontend (React/Flutter): `src/components/...`, `src/hooks/...`
-* Config: `.env.example`
-
----
-
-### 🎨 UI Fixes (Si aplica)
-* [Detalle responsive, paddings, z-index o modales]
-
----
-
-### ✅ Criterios de Aceptación
-- [ ] Endpoint responde 200 OK.
-- [ ] Validación de formularios / Manejo de errores.
-- [ ] Docker build compila sin fallos.
-
----
-
-### ⏱️ Estimación PERT
-* Optimista (O): Xh | Probable (P): Yh | Pesimista (K): Zh
-**Total Estimado:** X.XX horas
+         
 
 
  <!> Terminar cuadndo pase a hacer tiket de jira 
@@ -71,6 +41,59 @@ Como [Rol], quiero [Acción], para [Beneficio].
           ### ⏱️ Estimación PERT
           * Optimista (O): Xh | Probable (P): Yh | Pesimista (K): Zh
           **Total Estimado:** X.XX horas
+
+
+
+
+ </!>
+
+<!> Este cre que es una version vieja  05/8
+
+	🔵 Funcionalidad Técnica a Desarrollar
+	Genera la especificación de desarrollo en formato Jira Ticket listo para delegar.
+
+	Reglas Técnicas:
+	- Regla de 4 Horas: Ninguna tarea puede superar 4h. 
+	- Si excede, dividir en subtareas.Reutilización: Priorizar clonar/adaptar 
+	- Templates SaaS ($25–30/h) sobre desarrollo de cero ($8–10/h).
+	- Fórmula PERT Obligatoria: $Horas = \frac{O + 4P + K}{6}$
+
+
+	Estructura de Salida:
+
+	Markdown### 
+
+	🎟️ [TIPO] Título Claro
+
+	**Historia de Usuario:**
+	- Como [Rol], 
+	- Quiero [Acción]
+	- Para [Beneficio].
+
+	---
+
+	### 📂 Mapa de Ejecución & Rutas de Archivos
+	* Backend (FastAPI): `src/api/v1/endpoints/...`, `src/services/...`
+	* Frontend (React/Flutter): `src/components/...`, `src/hooks/...`
+	* Config: `.env.example`
+
+	---
+
+	### 🎨 UI Fixes (Si aplica)
+	* [Detalle responsive, paddings, z-index o modales]
+
+	---
+
+	### ✅ Criterios de Aceptación
+	- [ ] Endpoint responde 200 OK.
+	- [ ] Validación de formularios / Manejo de errores.
+	- [ ] Docker build compila sin fallos.
+
+	---
+
+	### ⏱️ Estimación PERT
+	* Optimista (O): Xh | Probable (P): Yh | Pesimista (K): Zh
+	**Total Estimado:** X.XX horas
 
 
 
